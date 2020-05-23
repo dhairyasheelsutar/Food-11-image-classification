@@ -3,3 +3,4 @@ validation/
 evaluation/
 .ipynb_checkpoints/
 models/
+__pycache__
