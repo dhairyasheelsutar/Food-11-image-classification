@@ -7,6 +7,7 @@
 import os
 import tempfile
 import tensorflow as tf
+import matplotlib.pyplot as plt
 
 
 # In[2]:
@@ -53,6 +54,14 @@ def get_data_generators(datagen, target_dim = 224, batch_size = 32):
 
 
 # In[ ]:
+
+def plot_model_results(num_epochs, history, key):
+
+    plt.plot(range(num_epochs), history[key])
+    plt.plot(range(num_epochs), history['val_' + key])
+    plt.xlabel('Epochs')
+    plt.ylabel(key)
+    plt.show()
 
 
 
