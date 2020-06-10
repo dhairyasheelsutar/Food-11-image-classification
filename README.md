@@ -6,6 +6,18 @@ This is image classification on food 11 dataset. The dataset is taken from <a hr
 
 <ul>
   <li>
-    Train 3 pretrained models like vgg19, inceptionV3 and mobilenet on this datasets and find out which model works the best. 
+    Train 3 pretrained models like vgg19, inceptionV3 and mobilenet on this dataset to find out which model works the best. 
+  </li>
+  <li>
+    Select the model with highest accuracy on test set.  
+   </li>
+  <li>
+    Use hyperparameter tuning to find out best parameters for the model. 
+   </li>
+  <li>
+    Use error analysis to find out where the model is making mistakes and which class is contributing most of the error in the overall error. 
+   </li>
+  <li>
+    Ensembling all the models to improve accuracy further.
   </li>
 </ul>
