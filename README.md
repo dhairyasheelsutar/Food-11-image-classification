@@ -43,7 +43,17 @@ There are various hyperparameters like
 6. Number of epochs etc.
 
 But I have selected above two hyperparameters for tuning. Let's look at the tensorboard's hparams visualization. 
+<img src="https://github.com/dhairyasheelsutar/Food-11-image-classification/blob/master/imgs/hp1.PNG"  alt="Tensorboard hparams visualization"/>
 
+It appears that Adam optimizer with learning rate 0.001 shows best results.
+
+### Error analysis
+
+The error analysis technique gives the insight regarding where the model is mistaking. Here is the error contribution per class in the overall error.
+
+<img src="https://github.com/dhairyasheelsutar/Food-11-image-classification/blob/master/imgs/error_analysis_bar.png" alt="Error analysis" />
+
+Most of the contribution is due to the Egg class.
 
 
 
