@@ -26,9 +26,9 @@ This is image classification on food 11 dataset. The dataset is taken from <a hr
 
 ### Training models
 
-Vgg19 model accuracy: 83.7%
-InceptionV3 accuracy: 85.3%
-Mobilenet accuracy: 83.2%
+Vgg19 model accuracy: 83.7%<br>
+InceptionV3 accuracy: 85.3%<br>
+Mobilenet accuracy: 83.2%<br>
 
 InceptionV3 shows better results then vgg19 and mobilenet.
 
