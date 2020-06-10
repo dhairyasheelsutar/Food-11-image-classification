@@ -55,6 +55,9 @@ The error analysis technique gives the insight regarding where the model is mist
 
 Most of the contribution is due to the Egg class.
 
+### Ensembling models
 
+I have stacked the vgg19, mobilenet and InceptionV3 models. The ensemble model has shown improvement of 5.2% incrase in accuracy.
 
+## Accuracy of final model: 90.50%
 
